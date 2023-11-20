@@ -35,7 +35,7 @@ nav a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     flex-shrink: 0;
 }
 
@@ -77,7 +77,7 @@ span {
 }
 
 .sobre-nos-texto {
-    width: 700px;
+    width: 50vw;
     height: 233px;
     flex-shrink: 0;
 }
@@ -100,6 +100,7 @@ span {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 40vw;
 }
 
 .cards {
@@ -125,4 +126,54 @@ span {
 
 .cards-info img {
     width: 100px;
+}
+
+.segmentos {
+    padding: 00px 50px;
+    background: linear-gradient(180deg, #E0E0E0 0.13%, rgba(231, 231, 231, 0.00) 58.31%);
+}
+
+.segmentos h1 {
+    color: #CD35C0;
+    text-align: center;
+}
+.segmento-cards-topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.segmento-cards-baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.segmento-cards {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.grafico-salt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-flutuante {
+    display: flex;
+    flex-direction: row;
 }
