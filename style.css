@@ -12,6 +12,16 @@ header {
     padding: 20px;
     background-color: #ffffff;
     color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.section {
+    position: relative;
+    top: 50px;
 }
 
 #logoheader {
@@ -61,7 +71,7 @@ span {
 }
 
 .sobre-nos {
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background-color: #E0E0E0;
     display: flex;
@@ -176,4 +186,69 @@ span {
 .info-flutuante {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px
+}
+
+.info-flutuante-texto {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: small;
+}
+
+.info-flutuante img {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #685CA6;
+    height: 15vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.info h1{
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 28vw;
+}
+
+.email-image {
+    width: 45px;
+    height: 45px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
 }
