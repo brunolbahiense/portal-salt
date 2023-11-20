@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.section {
+    position: relative;
+    top: 50px;
+}
+
+#logoheader {
+    max-width: 250px;
+}
+
+nav {
+    display: flex;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+
+}
+
+.background-inicio {
+    background-image: url(assets/Imagem-texto-inicial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    flex-shrink: 0;
+}
+
+.texto-inicio {
+    width: 477px;
+    height: 243px;
+    position: absolute;
+    left: 147px;
+    top: 200px;
+    color: #FFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.texto-inicio h1 {
+    font-size: 48px;
+}
+
+span {
+    color: #CD35C0;
+}
+
+.sobre-nos {
+    max-width: 100vw;
+    height: 100vh;
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 50px;
+    flex-direction: column;
+}
+
+.sobre-imagem-texto {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.sobre-nos-texto {
+    width: 50vw;
+    height: 233px;
+    flex-shrink: 0;
+}
+
+.sobre-nos-texto h1 {
+    width: 318px;
+    height: 88px;
+    color: #CD35C0;
+    font-family: Raleway;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sobre-nos-texto p{
+    color: #000;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 40vw;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    background-color: #E0E0E0;
+    justify-content: center;
+}
+
+.cards-info {
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-weight: 500;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cards-info img {
+    width: 100px;
+}
+
+.segmentos {
+    padding: 00px 50px;
+    background: linear-gradient(180deg, #E0E0E0 0.13%, rgba(231, 231, 231, 0.00) 58.31%);
+}
+
+.segmentos h1 {
+    color: #CD35C0;
+    text-align: center;
+}
+.segmento-cards-topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.segmento-cards-baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.segmento-cards {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.grafico-salt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-flutuante {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px
+}
+
+.info-flutuante-texto {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: small;
+}
+
+.info-flutuante img {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #685CA6;
+    height: 15vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.info h1{
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 28vw;
+}
+
+.email-image {
+    width: 45px;
+    height: 45px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
