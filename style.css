@@ -11,7 +11,7 @@ header {
     color: #fff;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 10;
     padding: 20px;
 }
@@ -107,7 +107,6 @@ span {
 
 .sobre-nos {
     max-width: 100vw;
-    height: 100vh;
     background-color: #E0E0E0;
     display: flex;
     align-items: center;
@@ -188,7 +187,6 @@ span {
     justify-content: center;
     padding: 20px;
     gap: 60px;
-    margin-top: 50px;
 }
 
 .segmento-cards-baixo {
@@ -197,9 +195,11 @@ span {
     justify-content: center;
     padding: 20px;
     gap: 60px;
-    margin-top: 20px;
-    margin-bottom: 50px;
 }
+
+    .segmento-responsivo {
+        padding: 40px;
+    }
 
 .segmento-cards {
     display: flex;
@@ -216,6 +216,10 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.grafico-salt-img {
+    width: 60vw;
 }
 
 .info-flutuante {
@@ -321,7 +325,34 @@ footer {
     box-shadow: 1px 1px 1px #5fe690;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 1200px) {
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .image-mockup {
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .segmento-cards-topo {
+        flex-direction: column;
+    }
+
+    .segmento-cards-baixo {
+        flex-direction: column;
+    }
+
+    .segmento-responsivo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
     .nav-bar {
         padding: 1.5rem;
     }
@@ -355,6 +386,24 @@ footer {
 
     .open {
         display: block;
+    }
+
+    nav {
+        align-items: center;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .image-mockup {
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .info-flutuante {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
