@@ -121,7 +121,7 @@ span {
 
 .sobre-nos-texto {
     width: 50vw;
-    height: 233px;
+    margin-bottom: 50px;
 }
 
 .sobre-nos-texto h1 {
@@ -215,7 +215,7 @@ span {
 }
 
 .grafico-salt-img {
-    width: 60vw;
+    width: 80vw;
 }
 
 .info-flutuante {
@@ -366,6 +366,15 @@ footer {
         padding: 1.5rem;
     }
 
+    .sobre-imagem-texto {
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre-nos-texto {
+        align-items: center;
+    }
+
     .nav-list {
         display: none;
     }
@@ -455,6 +464,10 @@ footer {
         height: 50px;
     }
     
+    .sobre-imagem-texto {
+        flex-direction: column;
+    }
+
 
 }
 
@@ -470,6 +483,10 @@ footer {
 
     .cards-info p {
         font-size: 15px;
+    }
+
+    .grafico-salt-img {
+        width: 90vw;
     }
 
     .cards-info img {
@@ -512,6 +529,10 @@ footer {
 
 @media screen and (max-width: 380px) {
 
+    .image-mockup {
+        width: 20vw;
+        height: 10vh;
+    }
 
     .logoheader {
         width: 150px;
@@ -526,6 +547,10 @@ footer {
         background-color: rgb(255, 255, 255);
         width: 100px;
         height: 40px;
+    }
+
+    img.menu {
+        width: 40px;
     }
 
     .icon {
@@ -559,11 +584,11 @@ footer {
     }
 
     .segmento-cards h2 {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     .segmento-cards {
-        width: 70px;
+        width: 100px;
     }
 
     .background-inicio {
@@ -575,6 +600,7 @@ footer {
         height: 243px;
         position: absolute;
         left: 50px;
-        top: 190px;
+        top: 160px;
     }
+
 }
