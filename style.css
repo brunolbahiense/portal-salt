@@ -67,8 +67,7 @@ nav a {
 }
 
 .section {
-    position: relative;
-    top: 50px;
+    margin-top: 50px;
 }
 
 .background-inicio {
@@ -123,12 +122,9 @@ span {
 .sobre-nos-texto {
     width: 50vw;
     height: 233px;
-    flex-shrink: 0;
 }
 
 .sobre-nos-texto h1 {
-    width: 318px;
-    height: 88px;
     color: #CD35C0;
     font-family: Raleway;
     font-size: 64px;
@@ -325,6 +321,7 @@ footer {
     box-shadow: 1px 1px 1px #5fe690;
 }
 
+
 @media screen and (max-width: 1200px) {
 
     .cards {
@@ -348,6 +345,18 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .sobre-nos-texto h1 {
+        font-size: 50px;
+    }
+
+    .sobre-nos-texto p {
+        font-size: 25px;
+    }
+
+    .info h1 {
+        font-size: 13px;
     }
 
 }
@@ -398,7 +407,7 @@ footer {
 
     .image-mockup {
         width: 20vw;
-        height: 20vh;
+        height: 15vh;
     }
 
     .info-flutuante {
@@ -406,4 +415,166 @@ footer {
         align-items: center;
     }
 
+    .texto-inicio {
+        width: 250px;
+        height: 243px;
+        position: absolute;
+        left: 120px;
+        top: 200px;
+    }
+
+    .texto-inicio h1 {
+        font-size: 25px;
+    }
+
+    .sobre-nos-texto h1 {
+        font-size: 30px;
+    }
+
+    .sobre-nos-texto p {
+        font-size: 20px;
+    }
+
+    .sobre-nos-texto {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .info h1 {
+        font-size: 10px;
+    }
+
+    .segmento-cards h2 {
+        font-size: 18px;
+    }
+
+    .segmento-cards {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 150px;
+        height: 50px;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .cards-info {
+        width: 60vw;
+    }
+
+    .cards-info h1 {
+        font-size: 25px;
+    }
+
+    .cards-info p {
+        font-size: 15px;
+    }
+
+    .cards-info img {
+        width: 50px;
+    }
+
+    .image-mockup {
+        width: 20vw;
+        height: 10vh;
+    }
+
+    .sobre-nos-texto h1 {
+        font-size: 20px;
+    }
+
+    .sobre-nos-texto p {
+        font-size: 15px;
+    }
+
+    .texto-inicio {
+        width: 180px;
+        height: 243px;
+        position: absolute;
+        left: 50px;
+        top: 400px;
+    }
+
+    .texto-inicio h1 {
+        font-size: 15px;
+    }
+
+    .info-flutuante img{
+        width: 30px;
+    }
+
+    .info-flutuante h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+
+    .logoheader {
+        width: 150px;
+    }
+
+    .segmento-cards h2 {
+        font-size: 12px;
+    }
+
+    .segmento-cards {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 100px;
+        height: 40px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .botaowhatsapp i {
+        font-size: 20px;
+    }
+
+    .info h1{
+        font-size: 6px;
+    }
+
+    .icons img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .info-flutuante-texto {
+        width: 30vw;
+    }
+
+    .segmento-cards-baixo {
+        width: 45vw;
+    }
+
+    .segmento-cards-topo {
+        width: 45vw;
+    }
+
+    .segmento-cards h2 {
+        font-size: 9px;
+    }
+
+    .segmento-cards {
+        width: 70px;
+    }
+
+    .background-inicio {
+        height: 30vh;
+    }
+
+    .texto-inicio {
+        width: 180px;
+        height: 243px;
+        position: absolute;
+        left: 50px;
+        top: 190px;
+    }
 }
