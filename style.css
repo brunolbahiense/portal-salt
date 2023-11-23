@@ -322,6 +322,63 @@ footer {
     box-shadow: 1px 1px 1px #685CA6;
 }
 
+/* FIM DO CSS ABA INICIAL*/ /*INICIO DO CSS ABA PREÇO*/
+
+.precos {
+    margin-top: 176px;
+    color: rgba(104, 92, 166, 1);
+    justify-content: center;
+    display: flex;
+}
+
+.cards-precos-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+
+.cards-precos {
+    border-radius: 5px;
+    background: #685CA6;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    width: 22vw;
+}
+
+.cards-precos h1{
+    justify-content: center;
+    display: flex;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.cards-precos h2{
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cards-precos h3{
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cards-precos p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/* FIM DO CSS ABA PREÇO*/ /*INICIO DO CSS ABA SEGMENTOS*/
+
 
 @media screen and (max-width: 1200px) {
 
@@ -360,6 +417,19 @@ footer {
         font-size: 13px;
     }
 
+    .cards-precos-area {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards-precos {
+        flex-direction: row;
+        display: flex;
+        width: 80vw;
+        margin-bottom: 50px;
+
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -567,12 +637,12 @@ footer {
     }
 
     .icon {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
     
     .botaowhatsapp i {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .info h1{
