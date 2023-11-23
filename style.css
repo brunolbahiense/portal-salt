@@ -100,7 +100,7 @@ nav a {
     border-radius: 5px;
 }
 
-span {
+.spansobre {
     color: #CD35C0;
 }
 
@@ -177,6 +177,7 @@ span {
     color: #CD35C0;
     text-align: center;
 }
+
 .segmento-cards-topo {
     display: flex;
     flex-direction: row;
@@ -325,7 +326,7 @@ footer {
 /* FIM DO CSS ABA INICIAL*/ /*INICIO DO CSS ABA PREÇO*/
 
 .precos {
-    margin-top: 176px;
+    padding-top: 176px;
     color: rgba(104, 92, 166, 1);
     justify-content: center;
     display: flex;
@@ -336,16 +337,21 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 50px;
-    margin-bottom: 140px;
+    padding-bottom: 140px;
+}
+
+.abaprecos .section {
+    background-color: #E0E0E0;;
 }
 
 .cards-precos {
     border-radius: 5px;
-    background: #685CA6;
-    color: white;
+    background: white;
+    color: black;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 30px;
     width: 22vw;
+    border: 2px solid #685CA6;
 }
 
 .cards-precos h1{
@@ -361,6 +367,9 @@ footer {
     font-size: 25px;
     margin-top: 10px;
     text-align: center;
+    color: #685CA6;
+    height: 100px;
+    align-items: center;
 }
 
 .cards-precos h3{
@@ -371,10 +380,23 @@ footer {
     text-align: center;
 }
 
-.cards-precos p{
-    margin-top: 20px;
-    font-size: 20px;
-}
+    .cards-precos h4 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid #685CA6;
+    }
+
+    .spanplanos {
+        font-style: italic;
+    }
+
+    .cards-precos p{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 25px;
+    }
 
 
 /* FIM DO CSS ABA PREÇO*/ /*INICIO DO CSS ABA SEGMENTOS*/
@@ -428,8 +450,24 @@ footer {
         display: flex;
         width: 80vw;
         margin-bottom: 50px;
-
+        gap: 50px;
+        justify-content: space-be;
     }
+
+    .cards-precos p {
+        margin: 0;
+    }
+
+    .precos-titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cards-precos h2 {
+        width: 300px;
+    }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -543,6 +581,27 @@ footer {
         width: 200px;
     }
 
+    .precos-titulo h1{
+        font-size: 25px;
+    }
+
+    .precos-titulo h2 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .precos-titulo {
+        font-size: 10px;
+    }
+
+    .cards-precos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .precos-titulo h4 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -697,6 +756,14 @@ footer {
 
     .logo img{
         width: 75px;
+    }
+
+    .precos-titulo h4 {
+        font-size: 15px;
+    }
+
+    .cards-precos p {
+        font-size: 15px;
     }
 
 }
