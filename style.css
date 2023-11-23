@@ -416,8 +416,8 @@ footer {
     }
 
     .image-mockup {
-        width: 20vw;
-        height: 15vh;
+        width: 30vw;
+        height: 20vh;
     }
 
     .info-flutuante {
@@ -498,8 +498,8 @@ footer {
     }
 
     .image-mockup {
-        width: 20vw;
-        height: 10vh;
+        width: 30vw;
+        height: 20vh;
     }
 
     .sobre-nos-texto h1 {
@@ -543,8 +543,8 @@ footer {
 @media screen and (max-width: 380px) {
 
     .image-mockup {
-        width: 20vw;
-        height: 10vh;
+        width: 30vw;
+        height: 15vh;
     }
 
     .logoheader {
