@@ -326,7 +326,7 @@ footer {
 /* FIM DO CSS ABA INICIAL*/ /*INICIO DO CSS ABA PREÇO*/
 
 .precos {
-    padding-top: 176px;
+    padding-top: 80px;
     color: rgba(104, 92, 166, 1);
     justify-content: center;
     display: flex;
@@ -534,15 +534,15 @@ footer {
     }
 
     .texto-inicio {
-        width: 250px;
-        height: 243px;
+        width: 357px;
+        height: 100px;
         position: absolute;
         left: 120px;
         top: 200px;
     }
 
     .texto-inicio h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .sobre-nos-texto h1 {
@@ -601,6 +601,7 @@ footer {
 
     .precos-titulo h4 {
         font-size: 20px;
+        padding: 10px;
     }
 }
 
@@ -644,15 +645,15 @@ footer {
     }
 
     .texto-inicio {
-        width: 180px;
-        height: 243px;
+        width: 323px;
+        height: 99px;
         position: absolute;
         left: 50px;
-        top: 400px;
+        top: 222px;
     }
 
     .texto-inicio h1 {
-        font-size: 15px;
+        font-size: 30px;
     }
 
     .info-flutuante img{
@@ -734,15 +735,19 @@ footer {
     }
 
     .background-inicio {
-        height: 30vh;
+        height: 60vh;
     }
 
     .texto-inicio {
-        width: 180px;
-        height: 243px;
+        width: 269px;
+        height: 99px;
         position: absolute;
         left: 50px;
-        top: 160px;
+        top: 209px;
+    }
+
+    .texto-inicio h1 {
+        font-size: 25px;
     }
 
     .sobre-nos-texto p {
