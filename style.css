@@ -437,11 +437,11 @@ footer {
     }
 
     .sobre-nos-texto h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .sobre-nos-texto p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .sobre-nos-texto {
@@ -499,11 +499,15 @@ footer {
     }
 
     .sobre-nos-texto h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .sobre-nos-texto p {
-        font-size: 15px;
+        font-size: 20px;
+    }
+
+    .sobre-nos {
+        padding: 30px 80px;
     }
 
     .texto-inicio {
@@ -601,6 +605,15 @@ footer {
         position: absolute;
         left: 50px;
         top: 160px;
+    }
+
+    .sobre-nos-texto p {
+        width: 60vw;
+    }
+
+    .sobre-nos-texto h1 {
+        width: 60vw;
+        font-size: 30px;
     }
 
 }
