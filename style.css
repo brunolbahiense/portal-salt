@@ -16,7 +16,7 @@ header {
     padding: 20px;
 }
 
-.nav-bar a:hover {
+.nav-list a:hover {
     border-bottom: 2px solid #CD35C0 !important;
 }
 
