@@ -409,8 +409,8 @@ footer {
     }
 
     .image-mockup {
-        width: 20vw;
-        height: 20vh;
+        width: 300px;
+        height: 30vh;
     }
 
     .segmento-cards-topo {
@@ -524,8 +524,8 @@ footer {
     }
 
     .image-mockup {
-        width: 30vw;
-        height: 20vh;
+        width: 250px;
+        height: 25vh;
     }
 
     .info-flutuante {
@@ -628,7 +628,7 @@ footer {
     }
 
     .image-mockup {
-        width: 30vw;
+        width: 200px;
         height: 20vh;
     }
 
@@ -673,7 +673,7 @@ footer {
 @media screen and (max-width: 380px) {
 
     .image-mockup {
-        width: 30vw;
+        width: 150px;
         height: 15vh;
     }
 
