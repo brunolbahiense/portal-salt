@@ -301,8 +301,8 @@ footer {
     bottom: 100px;
     right: 30px;
     font-size: 40px;
-    background-color: #029e3b;;
-    color: white;
+    background-color: white;
+    color: #CD35C0;
     border-radius: 50%;
     padding: 10px;
     width: 70px;
@@ -317,9 +317,9 @@ footer {
 
 .icon:hover {
     background-color: white;
-    color: #029e3b;
+    color: #685CA6;
     font-weight: 900;
-    box-shadow: 1px 1px 1px #5fe690;
+    box-shadow: 1px 1px 1px #685CA6;
 }
 
 
