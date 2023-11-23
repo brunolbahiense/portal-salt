@@ -260,7 +260,7 @@ footer {
 .info {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 33vw;
     justify-content: center;
     gap: 10px;
     color: white;
@@ -276,10 +276,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 33vw;
 }
 
 .logo img{
-    width: 20vw;
+    width: 300px;
 }
 
 .email-image {
@@ -290,7 +291,7 @@ footer {
 .icons {
     display: flex;
     align-items: center;
-    width: 20vw;
+    width: 33vw;
     justify-content: right;
 }
 
@@ -468,6 +469,9 @@ footer {
         flex-direction: column;
     }
 
+    .logo img{
+        width: 200px;
+    }
 
 }
 
@@ -529,6 +533,11 @@ footer {
     .info-flutuante h1{
         font-size: 20px;
     }
+
+    .logo img{
+        width: 100px;
+    }
+
 }
 
 @media screen and (max-width: 380px) {
@@ -567,7 +576,7 @@ footer {
     }
 
     .info h1{
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .icons img {
@@ -614,6 +623,10 @@ footer {
     .sobre-nos-texto h1 {
         width: 60vw;
         font-size: 30px;
+    }
+
+    .logo img{
+        width: 75px;
     }
 
 }
