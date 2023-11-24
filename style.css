@@ -416,8 +416,132 @@ footer {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
-/* FIM DO CSS ABA PREÇO*/ /*INICIO DO CSS ABA SEGMENTOS*/
+/* FIM DO CSS ABA PREÇO*/ /*INICIO DO CSS ABA PRODUTOS*/
 
+    .abaproduto .section {
+        background-color: #E0E0E0;
+    }
+
+    .produtos {
+        padding-top: 100px;
+        color: rgba(104, 92, 166, 1);
+        justify-content: center;
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .produtos-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        padding-bottom: 80px;
+    }
+
+    .produtos-cards {
+        display: flex;
+        flex-direction: row;
+        background-color: #FFF;
+        border: 2px solid #685CA6;
+        border-radius: 5px;
+        width: 60vw;
+        justify-content: space-between;
+    }
+
+    .produtos-cards-direita {
+        display: flex;
+        flex-direction: row;
+        background-color: #FFF;
+        border: 2px solid #685CA6;
+        border-radius: 5px;
+        width: 60vw;
+        justify-content: space-between;
+    }
+
+    .sobre-produtos {
+        color: #685CA6;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .topico-produtos {
+        font-weight: bold;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .topico-produtos-area {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .topico-produtos-area-portal {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .topico-produtos-area-unica {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    .produtos-cards-sobre h1 {
+        font-style: italic;
+        font-size: 50px;
+    }
+
+    .produtos-cards-sobre {
+        padding: 0 50px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .produto-imagem {
+        margin-top: 30px;
+        
+    }
+
+    .produto-imagem-esquerda {
+        margin-left: 20px;
+    }
+
+/* FIM DO CSS ABA PRODUTOS*/ /*INICIO DO CSS ABA CLIENTES */
+
+@media screen and (max-width: 1300px) {
+    .produto-imagem {
+        height: 300px;
+        width: 300px;
+    }
+
+    .produto-imagem-esquerda {
+        width: 300px;
+        height: 300px;
+    }
+
+    .produtos-cards {
+        align-items: center;
+        display: flex;
+    }
+
+    .produtos-cards-direita {
+        align-items: center;
+        display: flex;
+    }
+
+    .produtos-cards-sobre h1 {
+        font-size: 30px;
+    }
+
+    .topico-produtos {
+        font-size: 18px;
+    }
+    
+    .topico-produtos-area {
+        grid-template-columns: 2fr 2fr;
+    }
+}
 
 @media screen and (max-width: 1200px) {
 
@@ -485,6 +609,40 @@ footer {
         width: 300px;
     }
     
+    .produtos-cards {
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .produtos-cards-direita {
+        flex-direction: column-reverse;
+        width: 50vw;
+    }
+
+    .produtos-cards-sobre {
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .sobre-produtos {
+        text-align: center;
+    }
+
+    .topico-produtos-area-unica {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topico-produtos-area-portal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto-imagem-esquerda {
+        margin-left: 0;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -621,6 +779,42 @@ footer {
         font-size: 20px;
         padding: 10px;
     }
+
+    .produto-imagem {
+        width: 250px;
+        height: 250px;
+    }
+
+    .produto-imagem-esquerda {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .produtos-cards-sobre h1 {
+        font-size: 25px;
+    }
+
+    .sobre-produtos {
+        font-size: 20px;
+    }
+
+    .topico-produtos {
+        font-size: 20px;
+    }
+
+    .produtos-cards {
+        width: 80vw;
+    }
+
+    .produtos-cards-direita {
+        width: 80vw;
+    }
+
+
+    .topico-produtos-area {
+        grid-template-columns: 2fr 2fr;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -639,6 +833,10 @@ footer {
 
     .grafico-salt-img {
         width: 90vw;
+    }
+    
+    .produtos-cards-sobre {
+        padding: 0;
     }
 
     .cards-info img {
@@ -684,6 +882,28 @@ footer {
 
     .logo img{
         width: 100px;
+    }
+
+    .produto-imagem {
+        width: 250px;
+        height: 180px;
+    }
+
+    .produtos-cards {
+        padding: 10px ;
+    }
+
+    .produtos-cards-direita {
+        padding: 10px ;
+    }
+
+    .produto-imagem-esquerda {
+        width: 250px;
+        height: 180px;
+    }
+
+    .topico-produtos {
+        font-size: 17px;
     }
 
 }
@@ -791,6 +1011,16 @@ footer {
 
     .cards-precos p {
         font-size: 15px;
+    }
+
+    .produto-imagem {
+        width: 150px;
+        height: 150px;
+    }
+
+    .produto-imagem-esquerda {
+        width: 200px;
+        height: 150px;
     }
 
 }
