@@ -14,6 +14,7 @@ header {
     width: 100vw;
     z-index: 10;
     padding: 20px;
+    
 }
 
 .nav-list a:hover {
@@ -48,7 +49,7 @@ img.menu {
 
 nav a {
     text-decoration: none;
-    color: #000000;
+    color: #1f1f1f;
     margin-left: 20px;
 
 }
@@ -63,7 +64,7 @@ nav a {
 
 .mobile-menu a {
     text-decoration: none;
-    color: #000000;
+    color: #1f1f1f;
 }
 
 .section {
@@ -154,7 +155,7 @@ nav a {
     text-align: center;
     background-color: white;
     width: 350px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -207,6 +208,7 @@ nav a {
     justify-content: center;
     border-radius: 3px;
     filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
 }
 
 .grafico-salt {
@@ -341,17 +343,17 @@ footer {
 }
 
 .abaprecos .section {
-    background-color: #E0E0E0;;
+    background-color: #efefef;
 }
 
 .cards-precos {
-    border-radius: 5px;
+    border-radius: 10px;
     background: white;
     color: black;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 30px;
     width: 22vw;
-    border: 2px solid #685CA6;
+    border: 2px solid #cbcbcb;
 }
 
 .cards-precos h1{
@@ -359,6 +361,7 @@ footer {
     display: flex;
     font-style: italic;
     font-size: 30px;
+    color: #1f1f1f;
 }
 
 .cards-precos h2{
@@ -378,6 +381,7 @@ footer {
     font-size: 18px;
     margin-top: 20px;
     text-align: center;
+    color: #1f1f1f;
 }
 
     .cards-precos h4 {
@@ -386,6 +390,8 @@ footer {
         justify-content: center;
         text-align: center;
         border: 2px solid #685CA6;
+        border-radius: 15px;
+        color: #1f1f1f;
     }
 
     .spanplanos {
@@ -396,6 +402,8 @@ footer {
         margin-top: 20px;
         font-size: 20px;
         line-height: 25px;
+        color: #1f1f1f;
+        text-transform: lowercase;
     }
 
     .comecarbuttonarea {
@@ -407,11 +415,11 @@ footer {
 
     .comecarbutton {
         background-color: #685CA6;
-        border-radius: 5px;
+        border-radius: 50px;
         border: none;
         padding: 12px;
         color: white;
-        font-size: 35px;
+        font-size: 30px;
         cursor: pointer;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
@@ -442,20 +450,24 @@ footer {
         display: flex;
         flex-direction: row;
         background-color: #FFF;
-        border: 2px solid #685CA6;
-        border-radius: 5px;
+        border: 2px solid #cbcbcb;
+        border-radius: 15px;
         width: 60vw;
         justify-content: space-between;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color: #1f1f1f;
     }
 
     .produtos-cards-direita {
         display: flex;
         flex-direction: row;
         background-color: #FFF;
-        border: 2px solid #685CA6;
-        border-radius: 5px;
+        border: 2px solid #cbcbcb;
+        border-radius: 15px;
         width: 60vw;
         justify-content: space-between;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color: #1f1f1f;
     }
 
     .sobre-produtos {
@@ -465,9 +477,9 @@ footer {
     }
 
     .topico-produtos {
-        font-weight: bold;
         line-height: 30px;
         font-size: 20px;
+        text-transform: lowercase;
     }
 
     .topico-produtos-area {
@@ -488,6 +500,7 @@ footer {
     .produtos-cards-sobre h1 {
         font-style: italic;
         font-size: 50px;
+        font-weight: 400;
     }
 
     .produtos-cards-sobre {
@@ -500,14 +513,83 @@ footer {
 
     .produto-imagem {
         margin-top: 30px;
+        border-radius: 15px;
         
     }
 
     .produto-imagem-esquerda {
         margin-left: 20px;
+        border-radius: 15px;
     }
 
 /* FIM DO CSS ABA PRODUTOS*/ /*INICIO DO CSS ABA CLIENTES */
+
+    .abacliente .section {
+        background-color: #efefef;
+    }
+
+    .parceiros-titulo {
+        padding-top: 100px;
+        color: #CD35C0;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .parceiros-area {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .parceiros-cards {
+        background-color: white;
+        border: 2px pink;
+        height: 200px;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 10px;
+        filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .image-prefeitura {
+        width: 350px;
+    }
+
+    .clientes-titulo {
+        padding-top: 50px;
+        color: #CD35C0;
+        font-size: 20px;
+        justify-content: center;
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .clientes-area {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 70px;
+        margin-top: 100px;
+    }
+
+    .clientes-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25));
+    }
+
+    .clientes-cards img {
+        width: 200px;
+    }
+
+/* FIM DO CSS ABA CLIENTES*/ /*FIM DO PORTAL VERSÃO 1 */
 
 @media screen and (max-width: 1300px) {
     .produto-imagem {
@@ -592,7 +674,7 @@ footer {
         width: 80vw;
         margin-bottom: 50px;
         gap: 50px;
-        justify-content: space-be;
+        justify-content: space-between;
     }
 
     .cards-precos p {
@@ -778,6 +860,7 @@ footer {
     .precos-titulo h4 {
         font-size: 20px;
         padding: 10px;
+        border-radius: 50px;
     }
 
     .produto-imagem {
