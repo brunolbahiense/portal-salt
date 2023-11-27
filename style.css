@@ -529,12 +529,12 @@ footer {
     }
 
     .parceiros-titulo {
-        padding-top: 100px;
+        padding-top: 150px;
         color: #CD35C0;
         font-size: 20px;
         display: flex;
         justify-content: center;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
     .parceiros-area {
@@ -566,27 +566,31 @@ footer {
         justify-content: center;
         display: flex;
         margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     .clientes-area {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(5, 17%);
+        gap: 30px 20px;
+        place-items: center;
         justify-content: center;
-        gap: 70px;
-        margin-top: 100px;
+        padding-bottom: 100px;
     }
 
     .clientes-cards {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 14vw;
+        height: 20vh;
         background-color: white;
         border-radius: 10px;
         filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25));
     }
 
     .clientes-cards img {
-        width: 200px;
+        width: 10vw;
     }
 
 /* FIM DO CSS ABA CLIENTES*/ /*FIM DO PORTAL VERSÃO 1 */
@@ -622,6 +626,15 @@ footer {
     
     .topico-produtos-area {
         grid-template-columns: 2fr 2fr;
+    }
+
+    .parceiros-cards {
+        width: 300px;
+        height: 150px;
+    }
+
+    .parceiros-cards img {
+        width: 250px;
     }
 }
 
@@ -723,6 +736,15 @@ footer {
 
     .produto-imagem-esquerda {
         margin-left: 0;
+    }
+
+    .parceiros-cards {
+        width: 250px;
+        height: 120px;
+    }
+
+    .parceiros-cards img {
+        width: 200px;
     }
 
 }
@@ -898,6 +920,29 @@ footer {
         grid-template-columns: 2fr 2fr;
     }
 
+    .parceiros-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .parceiros-cards {
+        width: 400px;
+        height: 150px;
+    }
+
+    .parceiros-cards img {
+        width: 300px;
+    }
+
+    .clientes-area {
+        grid-template-columns: repeat(4, 17%);
+    }
+
+    .clientes-cards {
+        width: 18vw;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -987,6 +1032,30 @@ footer {
 
     .topico-produtos {
         font-size: 17px;
+    }
+
+    .clientes-area {
+        grid-template-columns: repeat(2, 40%);
+    }
+
+    .clientes-cards {
+        width: 40vw;
+    }
+
+    .clientes-cards img {
+        width: 30vw;
+    }
+
+    .parceiros-cards {
+        width: 300px;
+    }
+
+    .parceiros-cards img {
+        width: 200px;
+    }
+
+    .parceiros-titulo h1 {
+        font-size: 30px;
     }
 
 }
