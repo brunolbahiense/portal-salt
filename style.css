@@ -95,7 +95,7 @@ nav a {
 }
 
 .texto-inicio {
-    width: 460px;
+    width: 500px;
     height: 243px;
     position: absolute;
     left: 120px;
@@ -109,7 +109,7 @@ nav a {
 }
 
 .texto-inicio h1 {
-    font-size: 48px;
+    font-size: 55px;
     background-color: rgba(0, 0, 0, 0.3);
     padding-left: 10px;
     border-radius: 5px;
@@ -161,7 +161,7 @@ nav a {
 .cards {
     display: flex;
     gap: 40px;
-    background-color: #E0E0E0;
+    background-color: #Efefef;
     justify-content: center;
 }
 
