@@ -371,6 +371,13 @@ footer {
     padding: 30px;
     width: 22vw;
     border: 2px solid #cbcbcb;
+    transition: 0.7s ease-out;
+}
+
+.cards-precos:hover {
+    /*transform: scale(1.1); */
+    cursor: pointer;
+    border: solid 2px #685CA6;
 }
 
 .cards-precos h1{
