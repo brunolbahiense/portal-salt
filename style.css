@@ -963,6 +963,16 @@ footer {
 
 }
 
+@media screen and (max-width: 650px) {
+    .clientes-area {
+        grid-template-columns: repeat(3, 22%);
+    }
+
+    .clientes-cards {
+        width: 22vw;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
     .cards-info {
