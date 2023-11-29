@@ -1098,6 +1098,10 @@ footer {
         font-size: 25px;
     }
 
+    .logoheader {
+        width: 180px;
+    }
+
 }
 
 @media screen and (max-width: 380px) {
